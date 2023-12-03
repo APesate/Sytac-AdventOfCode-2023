@@ -1,6 +1,6 @@
 import Foundation
 
-public var input: String {
+public var day1Input: String {
     """
     14gxqgqsqqbxfpxnbccjc33eight
     eight2sevenkl
