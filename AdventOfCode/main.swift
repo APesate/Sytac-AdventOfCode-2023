@@ -22,5 +22,9 @@ import Foundation
 //print("Part 2: \(day3ExtractEnginePart2(day3Input))") // 72246648
 
 // MARK: - Day 4
-print("Part 1: \(day4Part1(day4Input))") // 20855
-print("Part 2: \(day4Part2(day4Input))") // 5489600
+//print("Part 1: \(day4Part1(day4Input))") // 20855
+//print("Part 2: \(day4Part2(day4Input))") // 5489600
+
+// MARK: - Day 5
+//print("Part 1: \(day5Part1(day5Input))") //
+print("Part 2: \(day5Part2(day5Input))") // 
