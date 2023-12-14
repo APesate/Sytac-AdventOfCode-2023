@@ -51,5 +51,9 @@ import Foundation
 
 // MARK: - Day 11
 //print("Part 1: \(day11Part1(day11Input))")  // 10077850
-print("Part 2: \(day11Part2(day11Input))") // 504715068438
+//print("Part 2: \(day11Part2(day11Input))") // 504715068438
+
+// MARK: - Day 12
+//print("Part 1: \(day12Part1(day12TestInput))")  // 7916
+//print("Part 2: \(day12Part2(day12Input))") // 37366887898686
 
