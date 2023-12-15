@@ -42,12 +42,6 @@ private func execCycles(_ cyclesToRun: Int, _ input: inout [[Character]]) -> Int
     }
 
     return cycleScore
-
-//        print("(\(i)): \(score) -> \(scores[score]!)")
-//        scores.forEach {
-//            print("\($0.key):\t\($0.value)\t(\($0.value.count))")
-//        }
-//        print(String(repeating: "-", count: 20))
 }
 
 private func rollUp(_ input: inout [[Character]]) {
