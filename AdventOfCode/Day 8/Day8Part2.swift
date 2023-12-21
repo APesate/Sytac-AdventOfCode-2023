@@ -19,15 +19,15 @@ import RegexBuilder
  ZZZ = (ZZZ, ZZZ)
  */
 
-func gcd(_ a: Int, _ b: Int) -> Int {
+private func gcd(_ a: Int, _ b: Int) -> Int {
     return b == 0 ? a : gcd(b, a % b)
 }
 
-func lcm(_ a: Int, _ b: Int) -> Int {
+private func lcm(_ a: Int, _ b: Int) -> Int {
     return a / gcd(a, b) * b
 }
 
-func lcm(_ array: [Int]) -> Int {
+private func lcm(_ array: [Int]) -> Int {
     return array.reduce(1, { lcm($0, $1) })
 }
 
