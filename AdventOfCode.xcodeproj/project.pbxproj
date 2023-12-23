@@ -75,6 +75,11 @@
 		9EF992652B35C42F006289B6 /* Day22Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF992642B35C42F006289B6 /* Day22Input.swift */; };
 		9EF992672B35C433006289B6 /* Day22Part1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF992662B35C433006289B6 /* Day22Part1.swift */; };
 		9EF992692B35C437006289B6 /* Day22Part2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF992682B35C437006289B6 /* Day22Part2.swift */; };
+		9EF9926C2B36E954006289B6 /* BitCollections in Frameworks */ = {isa = PBXBuildFile; productRef = 9EF9926B2B36E954006289B6 /* BitCollections */; };
+		9EF9926E2B36E954006289B6 /* Collections in Frameworks */ = {isa = PBXBuildFile; productRef = 9EF9926D2B36E954006289B6 /* Collections */; };
+		9EF992702B36E954006289B6 /* DequeModule in Frameworks */ = {isa = PBXBuildFile; productRef = 9EF9926F2B36E954006289B6 /* DequeModule */; };
+		9EF992722B36E954006289B6 /* HashTreeCollections in Frameworks */ = {isa = PBXBuildFile; productRef = 9EF992712B36E954006289B6 /* HashTreeCollections */; };
+		9EF992742B36E954006289B6 /* HeapModule in Frameworks */ = {isa = PBXBuildFile; productRef = 9EF992732B36E954006289B6 /* HeapModule */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -166,6 +171,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EF9926E2B36E954006289B6 /* Collections in Frameworks */,
+				9EF992742B36E954006289B6 /* HeapModule in Frameworks */,
+				9EF9926C2B36E954006289B6 /* BitCollections in Frameworks */,
+				9EF992722B36E954006289B6 /* HashTreeCollections in Frameworks */,
+				9EF992702B36E954006289B6 /* DequeModule in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +467,11 @@
 			);
 			name = AdventOfCode;
 			packageProductDependencies = (
+				9EF9926B2B36E954006289B6 /* BitCollections */,
+				9EF9926D2B36E954006289B6 /* Collections */,
+				9EF9926F2B36E954006289B6 /* DequeModule */,
+				9EF992712B36E954006289B6 /* HashTreeCollections */,
+				9EF992732B36E954006289B6 /* HeapModule */,
 			);
 			productName = AdventOfCode;
 			productReference = 9EB4CD972B1B531000FB677F /* AdventOfCode */;
@@ -487,6 +502,7 @@
 			);
 			mainGroup = 9EB4CD8E2B1B531000FB677F;
 			packageReferences = (
+				9EF9926A2B36E954006289B6 /* XCRemoteSwiftPackageReference "swift-collections" */,
 			);
 			productRefGroup = 9EB4CD982B1B531000FB677F /* Products */;
 			projectDirPath = "";
@@ -748,6 +764,45 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9EF9926A2B36E954006289B6 /* XCRemoteSwiftPackageReference "swift-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-collections/";
+			requirement = {
+				branch = release/1.1;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9EF9926B2B36E954006289B6 /* BitCollections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9EF9926A2B36E954006289B6 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = BitCollections;
+		};
+		9EF9926D2B36E954006289B6 /* Collections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9EF9926A2B36E954006289B6 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = Collections;
+		};
+		9EF9926F2B36E954006289B6 /* DequeModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9EF9926A2B36E954006289B6 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = DequeModule;
+		};
+		9EF992712B36E954006289B6 /* HashTreeCollections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9EF9926A2B36E954006289B6 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = HashTreeCollections;
+		};
+		9EF992732B36E954006289B6 /* HeapModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9EF9926A2B36E954006289B6 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = HeapModule;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9EB4CD8F2B1B531000FB677F /* Project object */;
 }
