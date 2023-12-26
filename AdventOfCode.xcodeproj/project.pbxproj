@@ -83,6 +83,10 @@
 		9EF992772B36EE90006289B6 /* Day23Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF992762B36EE90006289B6 /* Day23Input.swift */; };
 		9EF992792B36EE94006289B6 /* Day23Part1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF992782B36EE94006289B6 /* Day23Part1.swift */; };
 		9EF9927B2B36EE98006289B6 /* Day23Part2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF9927A2B36EE98006289B6 /* Day23Part2.swift */; };
+		9EF9927E2B3813D5006289B6 /* Day24Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF9927D2B3813D5006289B6 /* Day24Input.swift */; };
+		9EF992802B3813DB006289B6 /* Day24Part1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF9927F2B3813DB006289B6 /* Day24Part1.swift */; };
+		9EF994322B3A3EB1006289B6 /* Day24Part2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF992832B3870C7006289B6 /* Day24Part2.swift */; };
+		9EF9943F2B3A413D006289B6 /* SwiftZ3 in Frameworks */ = {isa = PBXBuildFile; productRef = 9EF9943E2B3A413D006289B6 /* SwiftZ3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -94,6 +98,16 @@
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9EF9943A2B3A408B006289B6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
@@ -170,6 +184,9 @@
 		9EF992762B36EE90006289B6 /* Day23Input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day23Input.swift; sourceTree = "<group>"; };
 		9EF992782B36EE94006289B6 /* Day23Part1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day23Part1.swift; sourceTree = "<group>"; };
 		9EF9927A2B36EE98006289B6 /* Day23Part2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day23Part2.swift; sourceTree = "<group>"; };
+		9EF9927D2B3813D5006289B6 /* Day24Input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day24Input.swift; sourceTree = "<group>"; };
+		9EF9927F2B3813DB006289B6 /* Day24Part1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day24Part1.swift; sourceTree = "<group>"; };
+		9EF992832B3870C7006289B6 /* Day24Part2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day24Part2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +197,7 @@
 				9EF9926E2B36E954006289B6 /* Collections in Frameworks */,
 				9EF992742B36E954006289B6 /* HeapModule in Frameworks */,
 				9EF9926C2B36E954006289B6 /* BitCollections in Frameworks */,
+				9EF9943F2B3A413D006289B6 /* SwiftZ3 in Frameworks */,
 				9EF992722B36E954006289B6 /* HashTreeCollections in Frameworks */,
 				9EF992702B36E954006289B6 /* DequeModule in Frameworks */,
 			);
@@ -323,6 +341,7 @@
 			children = (
 				9EB4CD992B1B531000FB677F /* AdventOfCode */,
 				9EB4CD982B1B531000FB677F /* Products */,
+				9EF994342B3A408B006289B6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -361,6 +380,7 @@
 				9EF9925C2B346A6A006289B6 /* Day 21 */,
 				9EF992632B35C425006289B6 /* Day 22 */,
 				9EF992752B36EE84006289B6 /* Day 23 */,
+				9EF9927C2B3813CA006289B6 /* Day 24 */,
 			);
 			path = AdventOfCode;
 			sourceTree = "<group>";
@@ -466,6 +486,23 @@
 			path = "Day 23";
 			sourceTree = "<group>";
 		};
+		9EF9927C2B3813CA006289B6 /* Day 24 */ = {
+			isa = PBXGroup;
+			children = (
+				9EF9927D2B3813D5006289B6 /* Day24Input.swift */,
+				9EF9927F2B3813DB006289B6 /* Day24Part1.swift */,
+				9EF992832B3870C7006289B6 /* Day24Part2.swift */,
+			);
+			path = "Day 24";
+			sourceTree = "<group>";
+		};
+		9EF994342B3A408B006289B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -477,6 +514,7 @@
 				9EB4CD942B1B531000FB677F /* Frameworks */,
 				9EB4CD952B1B531000FB677F /* CopyFiles */,
 				9E2FE0A62B2D831B0085FF4B /* Resources */,
+				9EF9943A2B3A408B006289B6 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -489,6 +527,7 @@
 				9EF9926F2B36E954006289B6 /* DequeModule */,
 				9EF992712B36E954006289B6 /* HashTreeCollections */,
 				9EF992732B36E954006289B6 /* HeapModule */,
+				9EF9943E2B3A413D006289B6 /* SwiftZ3 */,
 			);
 			productName = AdventOfCode;
 			productReference = 9EB4CD972B1B531000FB677F /* AdventOfCode */;
@@ -520,6 +559,7 @@
 			mainGroup = 9EB4CD8E2B1B531000FB677F;
 			packageReferences = (
 				9EF9926A2B36E954006289B6 /* XCRemoteSwiftPackageReference "swift-collections" */,
+				9EF9943B2B3A413D006289B6 /* XCRemoteSwiftPackageReference "swift-z3" */,
 			);
 			productRefGroup = 9EB4CD982B1B531000FB677F /* Products */;
 			projectDirPath = "";
@@ -552,6 +592,7 @@
 				9E764FD62B317A2600860A62 /* Day19Part1.swift in Sources */,
 				9EF2E31F2B301C1600390342 /* Day18Part2.swift in Sources */,
 				9EF992672B35C433006289B6 /* Day22Part1.swift in Sources */,
+				9EF9927E2B3813D5006289B6 /* Day24Input.swift in Sources */,
 				9EB4CDAC2B1B539000FB677F /* Day2Part1.swift in Sources */,
 				9EF992622B346A8F006289B6 /* Day21Part2.swift in Sources */,
 				9EC6C3892B2C25F6000F462C /* Day15Input.swift in Sources */,
@@ -607,11 +648,13 @@
 				9E429BC92B1C569000D6EEEB /* Day3Part2.swift in Sources */,
 				9EC89D4F2B1D9B09000A3426 /* Day4Input.swift in Sources */,
 				9E8CC6C72B26D5D200A28058 /* Day11Part2.swift in Sources */,
+				9EF994322B3A3EB1006289B6 /* Day24Part2.swift in Sources */,
 				9E8CC6C32B26D5C800A28058 /* Day11Input.swift in Sources */,
 				9EF2E3162B2EDC3C00390342 /* Day17Part2.swift in Sources */,
 				9EA5B9AA2B3315450093D593 /* Day20Part1.swift in Sources */,
 				9E07681B2B203CBD00640580 /* Day6Part1.swift in Sources */,
 				9EC6C38D2B2C2600000F462C /* Day15Part2.swift in Sources */,
+				9EF992802B3813DB006289B6 /* Day24Part1.swift in Sources */,
 				9EF992772B36EE90006289B6 /* Day23Input.swift in Sources */,
 				9ED76FA42B22DFE50031DF1E /* Day8Input.swift in Sources */,
 				9E373EC32B244A7100E0A5EB /* Day9Part2.swift in Sources */,
@@ -743,10 +786,14 @@
 		9EB4CD9F2B1B531000FB677F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++23";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JH2UDL2P7J;
 				ENABLE_HARDENED_RUNTIME = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/AdventOfCode/Day 24/Eigen\"";
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/AdventOfCode/Day 24/Eigen\"";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_INTEROP_MODE = objcxx;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -754,10 +801,14 @@
 		9EB4CDA02B1B531000FB677F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++23";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JH2UDL2P7J;
 				ENABLE_HARDENED_RUNTIME = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/AdventOfCode/Day 24/Eigen\"";
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/AdventOfCode/Day 24/Eigen\"";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_INTEROP_MODE = objcxx;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -794,6 +845,14 @@
 				kind = branch;
 			};
 		};
+		9EF9943B2B3A413D006289B6 /* XCRemoteSwiftPackageReference "swift-z3" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/LuizZak/swift-z3.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -821,6 +880,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 9EF9926A2B36E954006289B6 /* XCRemoteSwiftPackageReference "swift-collections" */;
 			productName = HeapModule;
+		};
+		9EF9943E2B3A413D006289B6 /* SwiftZ3 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9EF9943B2B3A413D006289B6 /* XCRemoteSwiftPackageReference "swift-z3" */;
+			productName = SwiftZ3;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

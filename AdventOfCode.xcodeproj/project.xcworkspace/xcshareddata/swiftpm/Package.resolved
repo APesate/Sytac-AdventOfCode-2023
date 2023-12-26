@@ -8,6 +8,15 @@
         "branch" : "release/1.1",
         "revision" : "a8d1434540b03e3509225cdbfd7b5c6293d0c8bb"
       }
+    },
+    {
+      "identity" : "swift-z3",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/LuizZak/swift-z3.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "5c5d85e2d9e6b727486d872fbd8e6fa8eceeaf72"
+      }
     }
   ],
   "version" : 2

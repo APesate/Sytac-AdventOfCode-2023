@@ -99,4 +99,8 @@ import Foundation
 
 // MARK: - Day 23
 //print("Part 1: \(day23Part1(day23Input))")  // 2406
-// print("Part 2: \(day23Part2(day23Input))") // 6630 => Won't run unless added to a bigger stackSize Thread
+//print("Part 2: \(day23Part2(day23Input))") // 6630 => Won't run unless added to a bigger stackSize Thread
+
+// MARK: - Day 24
+//print("Part 1: \(day24Part1(day24Input))")  // 16665
+print("Part 2: \(day24Part2(day24Input))") // 769840447420960
